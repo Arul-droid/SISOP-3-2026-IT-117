@@ -442,7 +442,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 1 — Nama Duplikat & Welcome Message
 
-![alt text](image.png)
+![assets/soal1/duplikat.png](assets/soal1/duplikat.png)
 
 **Isi screenshot:**
 - Client mencoba nama `alice` yang sudah dipakai → ditolak dengan pesan `[System] The identity 'alice' is already synchronized in The Wired.`
@@ -469,7 +469,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 2 — Chat Antar Dua Client
 
-![alt text](image-1.png)
+![assets/soal1/chatting.png](assets/soal1/chatting.png)
 
 **Isi screenshot:**
 - Sisi kiri (alice): mengirim `hello lain`, menerima balasan `[lain]: hello alice`
@@ -495,7 +495,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 3 — Admin Console (The Knights)
 
-![alt text](image-2.png)
+![assets/soal1/admin.png](assets/soal1/admin.png)
 
 **Isi screenshot:**
 - Login dengan nama `The Knights` dan password `protocol7`
@@ -524,7 +524,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 4 — history.log
 
-![alt text](image-3.png)
+![assets/soal1/history.png](assets/soal1/history.png)
 
 **Isi screenshot:**
 - Isi file `history.log` dengan format `[YYYY-MM-DD HH:MM:SS] [Level] [Pesan]`
@@ -1019,7 +1019,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 1 — Orion are you there?
 
-![alt text](image-4.png)
+![assets/soal2/noServer.png](assets/soal2/noServer.png)
 
 **Isi screenshot:**
 - Client dijalankan sebelum server → muncul pesan `"Orion are you there?"` dan program keluar
@@ -1035,8 +1035,8 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 2 — Register & Login
 
-![alt text](image-5.png)
-![alt text](image-6.png)
+![assets/soal2/register.png](assets/soal2/register.png)
+![assets/soal2/login.png](assets/soal2/login.png)
 
 
 **Isi screenshot:**
@@ -1063,7 +1063,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 3 — Main Menu & Profile
 
-![alt text](image-7.png)
+![assets/soal2/lobby.png](assets/soal2/lobby.png)
 
 **Isi screenshot:**
 - Setelah login, tampil banner, profil player (Name, Gold, Lvl, XP), dan menu: Battle, Armory, History, Logout
@@ -1077,8 +1077,8 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 4 — Matchmaking & Battle
 
-![alt text](image-8.png)
-![alt text](image-9.png)
+![assets/soal2/battle.png](assets/soal2/battle.png)
+![assets/soal2/endBattle.png](assets/soal2/endBattle.png)
 
 **Isi screenshot:**
 - Sisi kiri dan kanan: dua client dalam fase matchmaking `"Searching for an opponent... [X s]"`
@@ -1104,7 +1104,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 5 — Armory
 
-![alt text](image-10.png)
+![assets/soal2/armory.png](assets/soal2/armory.png)
 
 **Isi screenshot:**
 - Tampilan menu armory dengan daftar 5 senjata, harga, dan bonus damage
@@ -1120,7 +1120,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 6 — Match History
 
-![alt text](image-11.png)
+![assets/soal2/history.png](assets/soal2/history.png)
 
 **Isi screenshot:**
 - Tabel match history dengan kolom Time, Opponent, Result (WIN/LOSS), XP gained
