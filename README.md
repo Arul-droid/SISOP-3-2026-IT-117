@@ -3,7 +3,6 @@
 **Nama:** Muhamad Nasrulhaq  
 **NRP:** 5027251117  
 **Kelas:** SISOP B 
-
 **Departemen:** Teknologi Informasi — FTEIC, ITS  
 
 ---
