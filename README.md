@@ -442,7 +442,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 1 — Nama Duplikat & Welcome Message
 
-> Letakkan screenshot: `img/soal1_duplikat.png`
+![alt text](image.png)
 
 **Isi screenshot:**
 - Client mencoba nama `alice` yang sudah dipakai → ditolak dengan pesan `[System] The identity 'alice' is already synchronized in The Wired.`
@@ -469,7 +469,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 2 — Chat Antar Dua Client
 
-> Letakkan screenshot: `img/soal1_chat.png`
+![alt text](image-1.png)
 
 **Isi screenshot:**
 - Sisi kiri (alice): mengirim `hello lain`, menerima balasan `[lain]: hello alice`
@@ -495,7 +495,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 3 — Admin Console (The Knights)
 
-> Letakkan screenshot: `img/soal1_admin.png`
+![alt text](image-2.png)
 
 **Isi screenshot:**
 - Login dengan nama `The Knights` dan password `protocol7`
@@ -524,7 +524,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 4 — history.log
 
-> Letakkan screenshot: `img/soal1_log.png`
+![alt text](image-3.png)
 
 **Isi screenshot:**
 - Isi file `history.log` dengan format `[YYYY-MM-DD HH:MM:SS] [Level] [Pesan]`
@@ -1019,7 +1019,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 1 — Orion are you there?
 
-> Letakkan screenshot: `img/soal2_ping.png`
+![alt text](image-4.png)
 
 **Isi screenshot:**
 - Client dijalankan sebelum server → muncul pesan `"Orion are you there?"` dan program keluar
@@ -1035,11 +1035,13 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 2 — Register & Login
 
-> Letakkan screenshot: `img/soal2_register.png`
+![alt text](image-5.png)
+![alt text](image-6.png)
+
 
 **Isi screenshot:**
 - Pilih menu `1. Register` → input username dan password → muncul `Account created!`
-- Pilih menu `2. Login` → input credentials → muncul `Welcome!`
+- Pilih menu `2. Login` → input credentials → masuk ke `lobby`
 
 **Cara reproduce:**
 ```bash
@@ -1055,14 +1057,13 @@ static void handle_sigint(int sig) {
 # Choice: 2
 # Username: rootkids
 # Password: 12321
-# Welcome!
 ```
 
 ---
 
 #### Screenshot 3 — Main Menu & Profile
 
-> Letakkan screenshot: `img/soal2_mainmenu.png`
+![alt text](image-7.png)
 
 **Isi screenshot:**
 - Setelah login, tampil banner, profil player (Name, Gold, Lvl, XP), dan menu: Battle, Armory, History, Logout
@@ -1076,7 +1077,8 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 4 — Matchmaking & Battle
 
-> Letakkan screenshot: `img/soal2_battle.png`
+![alt text](image-8.png)
+![alt text](image-9.png)
 
 **Isi screenshot:**
 - Sisi kiri dan kanan: dua client dalam fase matchmaking `"Searching for an opponent... [X s]"`
@@ -1102,7 +1104,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 5 — Armory
 
-> Letakkan screenshot: `img/soal2_armory.png`
+![alt text](image-10.png)
 
 **Isi screenshot:**
 - Tampilan menu armory dengan daftar 5 senjata, harga, dan bonus damage
@@ -1118,7 +1120,7 @@ static void handle_sigint(int sig) {
 
 #### Screenshot 6 — Match History
 
-> Letakkan screenshot: `img/soal2_history.png`
+![alt text](image-11.png)
 
 **Isi screenshot:**
 - Tabel match history dengan kolom Time, Opponent, Result (WIN/LOSS), XP gained
